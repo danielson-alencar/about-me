@@ -1,104 +1,22 @@
-/* Estilos globais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
 body {
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Cabeçalho */
-header {
-    background-color: #451576;
-    padding: 50px 0;
-    color: white;
-    text-align: center;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.foto-perfil {
-    border-radius: 50%;
+.profile-img {
     width: 220px;
     height: 220px;
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 36px;
+.social-links a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #0077b5; /* Cor do LinkedIn */
 }
 
-.profissao {
-    font-size: 18px;
-    font-style: italic;
-}
-
-/* Seções */
-.section {
-    padding: 40px 0;
-    text-align: center;
-}
-
-h2 {
-    font-size: 28px;
-    color: #4CAF50;
-    margin-bottom: 20px;
-}
-
-/* Habilidades */
-.habilidades-lista {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.habilidade {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    width: 150px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.habilidade i {
-    font-size: 36px;
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-/* Links */
-a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.social-links a:hover {
+    color: #005582; /* Cor do LinkedIn ao passar o mouse */
 }
